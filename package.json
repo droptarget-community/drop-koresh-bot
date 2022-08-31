@@ -1,0 +1,24 @@
+{
+  "name": "drop_koresh_bot",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "webpack -c webpack.config.js -w",
+    "build": "webpack -c webpack.config.js",
+    "start": "wrangler dev",
+    "deploy": "wrangler publish",
+    "ngrok": "ngrok http 8787"
+  },
+  "dependencies": {
+    "telegraf": "^4.8.6",
+    "@cfworker/web": "^1.12.4",
+    "cfworker-middware-telegraf": "^2.0.0"
+  },
+  "devDependencies": {
+    "ngrok": "^4.3.3",
+    "node-polyfill-webpack-plugin": "^2.0.1",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "wrangler": "2.0.26"
+  }
+}

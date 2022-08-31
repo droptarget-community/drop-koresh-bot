@@ -1,0 +1,7 @@
+name = "drop-koresh-bot"
+main = "dist/worker.js"
+compatibility_date = "2022-08-21"
+
+kv_namespaces = [
+  { binding = "USERS", id = "bc0729b274024868ba64b061d16aae98", preview_id = "9350d87eb9f8453ea600f07f337746ae" }
+]
